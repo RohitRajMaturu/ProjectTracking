@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ced6528045fe40d98a44ed8b8a10dd15" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjectTrackerModel.Employee" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectTrackerModel.MangerComment" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectTrackerModel.Project" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectTrackerModel.ProjectTask" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectTrackerModel.UserStory" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="ProjectTrackerModel.FK__ProjectTa__Assig__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectTrackerModel.FK__MangerCom__Proje__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectTrackerModel.FK__UserStori__Proje__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectTrackerModel.FK__ProjectTa__UserS__182C9B23" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
